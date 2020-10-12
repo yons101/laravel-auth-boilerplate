@@ -51,7 +51,6 @@ class User extends Authenticatable implements MustVerifyEmail
     /**
      * Send the registeration notification
      *
-     * @param  mixed $token
      * @return void
      */
     public function sendRegisterNotification()
@@ -63,7 +62,6 @@ class User extends Authenticatable implements MustVerifyEmail
     /**
      * Send the login notification
      *
-     * @param  mixed $token
      * @return void
      */
     public function sendLoginNotification()
@@ -85,7 +83,6 @@ class User extends Authenticatable implements MustVerifyEmail
     /**
      * Send the password reset success notification
      *
-     * @param  mixed $token
      * @return void
      */
     public function sendPasswordResetSuccessNotification()
@@ -96,7 +93,6 @@ class User extends Authenticatable implements MustVerifyEmail
     /**
      * Send the email verification notification
      *
-     * @param  mixed $token
      * @return void
      */
     public function sendEmailVerificationNotification()
